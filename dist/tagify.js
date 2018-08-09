@@ -285,7 +285,11 @@ Tagify.prototype = {
                     e.target.blur();
                 } else if (e.key == 'Enter') {
                     e.preventDefault(); // solves Chrome bug - http://stackoverflow.com/a/20398191/104380
-                    this.addTags(this.input.value, true);
+                    if( this.DOM.input.getAttribute('data-suggest') ) {
+                        this.input.autocomplete.set.call(this);
+                    } else {
+                        this.addTags(this.input.value, true);
+                    }
                 } else if (e.key == 'ArrowRight') this.input.autocomplete.set.call(this);
             },
             onInput: function onInput(e) {
