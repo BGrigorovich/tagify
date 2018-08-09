@@ -1,7 +1,7 @@
 {
   "name": "@bgrigorovich/tagify",
   "version": "2.1.1",
-  "homepage": "https://github.com/yairEO/tagify",
+  "homepage": "https://github.com/bgrigorovich/tagify",
   "description": "Want to simply convert an input field into a tags element, in a easy customizable way, with good performance and smallest code footprint? You are in the right place my friend.",
   "_npmUser": {
     "name": "vsync",
@@ -17,7 +17,7 @@
     "url": "git+https://github.com/BGrigorovich/tagify.git"
   },
   "bugs": {
-    "url": "https://github.com/yaireo/tagify/issues"
+    "url": "https://github.com/BGrigorovich/tagify/issues"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
